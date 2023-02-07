@@ -18,7 +18,7 @@ class WordCount
   public WordCount(String file_name) throws FileNotFoundException
   {
     objt = new Scanner(System.in);
-    file = new Scanner(new File(filename));
+    file = new Scanner(new File(file_name));
     words = new ArrayList<String>();
     w_count = new ArrayList<Integer>();
   }
@@ -63,7 +63,7 @@ class WordCount
     System.out.println("Word Count: ");
     for(int i = 0; i < words.size(); i++)
     {
-      System.out.printf("%6d %-10s/n", w_count.get(i), words.get(i))
+      System.out.printf("%6d %-10s\n", w_count.get(i), words.get(i));
       }
   }
   
