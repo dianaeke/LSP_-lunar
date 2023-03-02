@@ -34,9 +34,9 @@ public class Driver {
   
     System.out.println("Is equal : "+set1.equals(set2));
     
-    System.out.println("Largest element in set1 : "+set1.largestelement());
+    System.out.println("Largest element in set1 : "+set1.largest());
   
-    System.out.println("Smallest element in set2 : "+set2.smallestelement());
+    System.out.println("Smallest element in set2 : "+set2.smallest());
     
     IntegerSet setu= set1.union(set2);
     
