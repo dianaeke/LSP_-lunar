@@ -53,7 +53,7 @@ public class IntegerSet{
     
 //    returns a largest item and throw exception if list is empty
     
-    public int largestelement() throws IntegerSetException {
+    public int largest() throws IntegerSetException {
         
         if(list.size()==0) {
             IntegerSetException e= new IntegerSetException();
@@ -74,7 +74,7 @@ public class IntegerSet{
     
 //    returns a largest item and throw exception if list is empty
     
-    public int smallestelement() throws IntegerSetException {
+    public int smallest() throws IntegerSetException {
         
         if(list.size()==0) {
             IntegerSetException e= new IntegerSetException();
