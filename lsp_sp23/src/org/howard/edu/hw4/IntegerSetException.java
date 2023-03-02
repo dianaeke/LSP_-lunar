@@ -1,0 +1,3 @@
+class IntegerSetException extends Exception {
+
+}
